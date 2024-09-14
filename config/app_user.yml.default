@@ -10,7 +10,7 @@
   default_rules: rules
   default_overtime_enable: false
   default_overtime_max_round: 3
-  default_overtime_startmoney: 16000
+  default_overtime_startmoney: 10000
 
   # If you want a default password for all matches, you can set it here. Otherwise it will be random.
   #default_password: '' 
