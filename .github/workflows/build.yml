@@ -25,7 +25,7 @@ jobs:
           extensions: mysqli, pdo_mysql
 
       - name: Check PHP syntax
-        run: find apps lib -name "*.php" -print0 | xargs -0 -n1 php -l
+        run: find apps lib -name "*.php" -not -path "lib/vendor/*" -print0 | xargs -0 -n1 php -l
 
       - name: Verify key files exist
         run: |
